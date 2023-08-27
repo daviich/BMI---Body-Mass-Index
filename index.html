@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./image/project-management_1087815.png">
+</head>
+<body>
+    
+        <header>
+            <h2>Discover your Body Mass Index (BMI)</h2>
+        </header>
+        <div class="container">
+        <main>
+            <div class="formContainer">
+                <div class="title"> Body mass index </div>
+                <p>BMI is obtained by dividing a person's weight by height squared, and is an indicator generally used to assess whether someone is within the ranges considered healthy.</p>
+                <!-- <div class="title"> Body mass index </div> -->
+    <div class="input">
+        <label>Name:</label>
+        <input type="text" id='nome' placeholder="Your full name">
+    </div>
+    <div class="input">
+        <label>Height:</label>
+        <input type="number" id='altura' placeholder="Your height">
+    </div>
+    <div class="input">
+        <label>Weight:</label>
+        <input type="number" id='peso' placeholder="Your weight in kg">
+    </div>
+    <button id='calcular'>Calculate</button>
+
+    <div class="result" id='resultado'></div>
+            </div>
+        </div>
+        </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
