@@ -28,7 +28,7 @@ function imc (){
     }
     
     else{
-        resultado.textContent = 'Preencha todo o campo'
+        resultado.textContent = 'Fill in the entire field'
     }
 }
 
